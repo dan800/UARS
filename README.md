@@ -12,7 +12,8 @@ Then run the executable:
 `
 
 This produces the following:
-`
+
+```
 -------------------------------
     SFDU Descriptor
 -------------------------------
@@ -77,4 +78,4 @@ Index  Altitude (km)  Data (1/cm**3/s)    Quality (1/cm**3/s)**2
    26            102        34115.7             975.170
    27            105        33333.5             1106.12
  ...
-`
+```
