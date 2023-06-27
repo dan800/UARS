@@ -1,5 +1,14 @@
 # UARS
-An archive of programs to open PROD files
+An archive of programs to open PROD files. These are available on the earthdata.nasa.gov website:
+
+https://search.earthdata.nasa.gov/search?fi=HRDI
+
+Some software is available here:
+
+https://disc.gsfc.nasa.gov/information/documents?title=UARS%20Mission%20Preservation%20Documents
+
+Including the UARS C Language Read Program: readuars.c
+(http://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/UARS/3.8_ScienceDataSoftwareTools/ReadSW/readuars.c)
 
 To dump the contents of a binary PROD file to an ascii file, first compile the readuars.c code:
 `
@@ -79,3 +88,8 @@ Index  Altitude (km)  Data (1/cm**3/s)    Quality (1/cm**3/s)**2
    27            105        33333.5             1106.12
  ...
 ```
+
+# useful links
+
+https://catalog.data.gov/dataset/uars-high-resolution-doppler-imager-hrdi-level-3at-v011-uarhr3at-at-ges-disc
+https://disc.gsfc.nasa.gov/datasets/UARHR3AT_011/summary
