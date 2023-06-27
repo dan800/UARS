@@ -1,5 +1,5 @@
 # UARS
-An archive of programs to open PROD files. These are available on the earthdata.nasa.gov website:
+An archive of programs to open PROD files. The PROD binary are available on the earthdata.nasa.gov website:
 
 https://search.earthdata.nasa.gov/search?fi=HRDI
 
@@ -11,16 +11,18 @@ Including the UARS C Language Read Program: readuars.c
 (http://docserver.gesdisc.eosdis.nasa.gov/repository/Mission/UARS/3.8_ScienceDataSoftwareTools/ReadSW/readuars.c)
 
 To dump the contents of a binary PROD file to an ascii file, first compile the readuars.c code:
+
 `
 gcc -o readuars readuars.c -lm
 `
 
 Then run the executable:
+
 `
 ./readuars -b HRDI_L3AT_SVOLER_A_D0057.V0011_C01_PROD > prod.txt
 `
 
-This produces the following:
+This produces the following output into the prod.txt:
 
 ```
 -------------------------------
@@ -88,6 +90,8 @@ Index  Altitude (km)  Data (1/cm**3/s)    Quality (1/cm**3/s)**2
    27            105        33333.5             1106.12
  ...
 ```
+
+Some brave archivist needs to turn this into a reader that converts the PROD file to a netcdf file!
 
 # useful links
 
